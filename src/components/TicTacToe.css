@@ -1,0 +1,66 @@
+.game-board
+{
+  height : 94vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  background-color: #A40E4C;
+  color: #ACC3A6;
+  border: 0px solid #2C2C54;
+  border-radius: 0px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box
+{
+  background-color: #F5D6BA;
+  border: 2px solid #2C2C54;
+  border-radius: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxCenter 
+{
+  background-color: #F5D6BA;
+  border: 2px solid #2C2C54;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 9999999;
+}
+
+.timerText {
+  background-color: transparent;
+  font-size: 0.20em;
+  font-family: 'Courier New', Courier, monospace;
+  border-width: 0px;
+  align-self: flex-start;
+  right: 0;
+  bottom: 0; 
+  position: absolute;
+  padding: 0.5em;
+}
+
+.resetButton {
+  background-color: transparent;
+  font-size: 0.20em;
+  font-family: 'Courier New', Courier, monospace;
+  border-width: 0px;
+  align-self: flex-start;
+  right: 0;
+  top: 0; 
+  position: absolute;
+  padding: 0.5em;
+  z-index: 1;
+}
