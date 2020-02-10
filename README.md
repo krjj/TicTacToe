@@ -13,3 +13,7 @@ Tic Tac Toe implemented in Javascript/React
 * in the bottom-right corner of the center cell, render a string that shows how many minutes and seconds that have elapsed since the game started
 * there should be a button in the top-right corner of the center cell to reset the game
 * 750ms delay for the computer to make its move
+
+## Demo
+
+https://tictactoe-kshitij.netlify.com/
